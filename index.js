@@ -16,10 +16,10 @@ programa tiene recursos infinitos, que el tiempo de ejecución no importa y que 
 importante es realizar el desarrollo en el menor tiempo posible.
 */
 
-const resolver = (array, number) => {
+const resolver = (array, result) => {
     for (x = 0; x < array.length; x++) {
         for (y = x + 1; y < array.length; y++) {
-            if (array[x] + array[y] === number) return true
+            if (array[x] + array[y] === result) return true
         }
     }
     return false

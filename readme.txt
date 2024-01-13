@@ -1,4 +1,4 @@
-Lenguaje: Javascript
+Lenguaje: JavaScript
 Herramientas:
     - VS Code
     - RunJS

@@ -8,11 +8,9 @@ Output: False
 Ejemplo 2
 Input: nums = [1,2,4,4], requiredSum = 8
 Output: True
-
 */
 
 /*
-
 1. Un algoritmo que resuelva el problema asumiendo que la máquina en donde va a correrse el
 programa tiene recursos infinitos, que el tiempo de ejecución no importa y que lo más
 importante es realizar el desarrollo en el menor tiempo posible.
@@ -27,7 +25,7 @@ const resolver = (array, number) => {
     return false
 }
 
-resolver([1, 3, 9, 4], 8)
+resolver([1, 4, 3, 9], 8)
 resolver([1, 2, 4, 4], 8)
 
 /*
@@ -49,12 +47,12 @@ const resolverTwo = (array, result) => {
     return false
 }
 
-resolverTwo([1, 3, 9, 4], 8)
-resolverTwo([1, 2, 4, 6], 8)
+resolverTwo([1, 4, 3, 9], 8)
+resolverTwo([1, 2, 4, 4], 8)
 
 /*
-El algoritmo recorre cada elemento del array y calcula el numero complementario que necesita para llegar al valor deseado.
+El algoritmo recorre cada elemento del array y calcula el sumando que necesita para llegar al valor deseado.
 Este resultado será guardado en el array de results.
-Si en alguno de los proximos elementos del array resulta que se haya ese numero complementario la funcion devolverá true.
+Si en alguno de los proximos elementos del array resulta que se haya ese sumando la funcion devolverá true.
 Caso contrario al finalizar se devolverá false.
 */
